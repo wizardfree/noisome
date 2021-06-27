@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Mono&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch;
+
+  font-family: "Ubuntu", sans-serif !important;
+  font-size: 14px !important;
+
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 5vh;
+}
+
+header img {
+  height: 64px;
+}
+
+nav a:not(:first-child) {
+  margin-left: 16px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+
+  margin: 5vh;
+}
+
+main {
+  flex: 0 1 auto;
+  align-self: center;
+  max-width: 900px;
+}
+
+pre {
+  background-color: #300a24 !important;
+  /* color: #FFF !important; */
+  font-size: 1rem;
+  overflow: auto;
+  font-family: "Ubuntu Mono", monospace !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+.window {
+  /* flex: 0 1 auto; */
+  font-size: 14px !important;
+  margin-top: 32px !important;
+}
+
+code {
+  display: inline-block;
+  width: 100px;
+}
+
+.tag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: flex-end;
+}
+
+.tags {
+  margin-left: 16px;
+}
+
+.count {
+  margin-left: 5vw;
+  justify-self: end;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 1em auto;
+  padding: 0;
+}
