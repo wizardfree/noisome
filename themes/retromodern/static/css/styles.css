@@ -115,11 +115,9 @@ code {
   padding: 0;
 }
 
-/* #post-summary > h4 > a {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-} */
+.photoviewer {
+  width: fit-content;
+}
 
 #related {
   display: flex;
