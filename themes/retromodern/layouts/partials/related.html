@@ -1,9 +1,9 @@
 <hr>
-<ul id="related">
+<div id="related">
     {{ with .NextInSection }}
-    <h5><a href="{{ .Permalink }}"><~| {{ .Title | truncate 24 "..."}}</a></h5>
+    <h4>←<a href="{{ .Permalink }}">{{ .Title | truncate 24 "..."}}</a></h4>
     {{ end }}
     {{ with .PrevInSection }}
-    <h5><a href="{{ .Permalink }}">{{ .Title | truncate 24 "..." }} |~></a></h5>
+    <h4><a href="{{ .Permalink }}">{{ .Title | truncate 24 "..." }}</a>→</h4>
     {{ end }}
-</ul>
+</div>

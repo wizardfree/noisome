@@ -109,3 +109,12 @@ code {
   margin: 1em auto;
   padding: 0;
 }
+
+#related {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
