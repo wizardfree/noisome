@@ -6,8 +6,10 @@
     <main>
       <div class="window">
         <div class="title-bar">
-          <div class="title-bar-text">{{ .Page.Title }}</div>
+          <img src="{{ "wizardv2.png" | relURL }}" alt="" style="width: 22px">
+          <div class="title-bar-text"> {{ .Page.Title }}</div>
           <div class="title-bar-controls">
+            {{ .Date.Format "January 2, 2006" }}
             <button aria-label="Minimize"></button>
             <button aria-label="Maximize"></button>
             <button aria-label="Close"></button>

@@ -74,6 +74,17 @@ code {
   width: 100px;
 }
 
+.title-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title-bar-controls {
+  margin-left: auto;
+  color: #FFF;
+}
+
 .tag {
   display: flex;
   flex-wrap: wrap;
