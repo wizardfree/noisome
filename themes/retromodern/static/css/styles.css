@@ -82,7 +82,7 @@ code {
 
 .title-bar-controls {
   margin-left: auto;
-  color: #FFF;
+  color: #FFF !important;
 }
 
 .tag {
