@@ -17,6 +17,10 @@ body {
   line-height: 1.5;
 }
 
+h5 {
+  font-size: 1.125em;
+}
+
 header {
   display: flex;
   margin-bottom: 1em;
@@ -46,14 +50,12 @@ footer {
 }
 
 main {
-  flex: 0 1 auto;
   align-self: center;
   max-width: 900px;
 }
 
 pre {
   background-color: #300a24 !important;
-  /* color: #FFF !important; */
   font-size: 1rem;
   overflow: auto;
   font-family: "Ubuntu Mono", monospace !important;
@@ -64,9 +66,12 @@ img {
 }
 
 .window {
-  /* flex: 0 1 auto; */
   font-size: 14px !important;
   margin-top: 32px !important;
+}
+
+#post-summary {
+  padding-right: 20em;
 }
 
 code {
@@ -110,6 +115,12 @@ code {
   padding: 0;
 }
 
+/* #post-summary > h4 > a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} */
+
 #related {
   display: flex;
   flex-direction: row;
@@ -117,4 +128,14 @@ code {
   align-content: center;
   justify-content: space-around;
   align-items: center;
+}
+
+@media only screen and (max-width:56.25em) { 
+	main {
+    align-self: auto;
+  }
+
+  #post-summary {
+    padding-right: 0;
+  }
 }

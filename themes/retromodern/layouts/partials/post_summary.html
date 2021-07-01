@@ -1,9 +1,10 @@
 <article id="post-summary">
-    <h4>
-<a href="{{ .RelPermalink }}">{{ .Title | truncate 36 "..."}} ( {{ .Slug }} )</a>
-    </h4>
+    <h5>
+<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h5>
     <div>
-        <p>{{ .Date.Format "January 2, 2006" }}</p>
+        <p>🐌: <strong>{{ .Slug }}</strong></p>
+        <p>🗓️: <strong>{{ .Date.Format "January 2, 2006" }}</strong></p>
         <p class="tags">
             in 
             {{ range .Params.tags }}
