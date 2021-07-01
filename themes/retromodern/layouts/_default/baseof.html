@@ -9,7 +9,9 @@
           <img src="{{ "wizardv2.png" | relURL }}" alt="" style="width: 22px">
           <div class="title-bar-text"> {{ .Page.Title | truncate 24 "..." }}</div>
           <div class="title-bar-controls">
+            {{ if not .IsHome  }}
             {{ .Date.Format "January 2, 2006" }}
+            {{ end }}
             <button aria-label="Minimize"></button>
             <button aria-label="Maximize"></button>
             <button aria-label="Close"></button>
