@@ -1,7 +1,7 @@
 <article id="post-summary">
-    <h3>
+    <h4>
 <a href="{{ .RelPermalink }}">{{ .Title | truncate 36 "..."}} ( {{ .Slug }} )</a>
-    </h3>
+    </h4>
     <div>
         <p>{{ .Date.Format "January 2, 2006" }}</p>
         <p class="tags">
@@ -11,8 +11,6 @@
             {{ end }}
         </p>
     </div>
-
-    {{ .Summary }}
 </article>
 
 <hr>
