@@ -1,4 +1,4 @@
-baseURL = "http://wizardfree.uk"
+baseURL = "wizardfree.uk"
 languageCode = "en-gb"
 title = "WizardFree"
 theme = "retromodern"
