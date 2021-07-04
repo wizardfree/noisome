@@ -1,5 +1,5 @@
 ---
-title: "It Support Cert"
+title: "IT Support Cert"
 date: 2021-07-01T11:39:46+01:00
 draft: false
 author: Joseph Fleet
@@ -13,7 +13,7 @@ tags:
 <iframe src="/Coursera QNZAQTZ5SGSQ.pdf#toolbar=0" width="100%" height="500px">
     </iframe>
 
-At the start of the year I undertook the [Google IT Support Specialization] offered by Coursera, being award a certificate of completion by early February the specialization which consists of five courses each of which has graded work and quizlets which need to be passed in order to be awarded with a certificate.
+At the start of the year I undertook the [Google IT Support Specialization] offered by Coursera, being awarded a certificate of completion by early February the specialization which consists of five courses each of which has graded work and quizlets which need to be passed in order to be awarded with a certificate.
 The five courses include:
 
 1. [Technical Support Fundamentals]
