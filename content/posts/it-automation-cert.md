@@ -22,11 +22,11 @@ The courses include:
 4. [Troubleshooting and Debugging Techniques]
 5. [Configuration Management and the Cloud]
 
-After completing the specialization I feel that the course should have had more focus on either Python for IT application or automation using Python as one of many tools. Most of the struggle with these courses came from Qwiklabs (the interactive labs used to grade your progress) being buggy at times or refusing a correct answer because it wasn't exactly within specification.
+After completing the specialization, I feel that the course should have had more focus on either Python for IT application or automation using Python as one of many tools. Most of the struggle with these courses came from Qwiklabs (the interactive labs used to grade your progress) being buggy at times or refusing a correct answer because it wasn't exactly within specification.
 
 Overall the course was interesting and does give you a great deal of introductory information about how Python could be used in a automation context as well as a small taste of automation-at-scale tools like Puppet which may show up in another article very soon...
 
-An excerpt from the Specialisation page on coursera:
+An excerpt from the Specialization page on Coursera:
 >This program builds on your IT foundations to help you take your career to the next level. It’s designed to teach you how to program with Python and how to use Python to automate common system administration tasks. You'll also learn to use Git and GitHub, troubleshoot and debug complex problems, and apply automation at scale by using configuration management and the Cloud.
 
 [Google IT Automation with Python Specialization]: <https://www.coursera.org/professional-certificates/google-it-automation>

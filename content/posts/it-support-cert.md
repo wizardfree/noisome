@@ -13,7 +13,7 @@ tags:
 <iframe src="/Coursera QNZAQTZ5SGSQ.pdf#toolbar=0" width="100%" height="500px">
     </iframe>
 
-At the start of the year I undertook the [Google IT Support Specialization] offered by Coursera, being awarded a certificate of completion by early February the specialization which consists of five courses each of which has graded work and quizlets which need to be passed in order to be awarded with a certificate.
+At the start of the year I undertook the [Google IT Support Specialization] offered by Coursera, being awarded a certificate of completion by early February the specialization which consists of five courses, each of which has graded work and quizlets which need to be passed in order to be awarded with a certificate.
 The five courses include:
 
 1. [Technical Support Fundamentals]
@@ -22,11 +22,11 @@ The five courses include:
 4. [System Administration and IT Infrastructure Services]
 5. [IT Security: Defense against the digital dark arts]
 
-The topics covered across the courses touched on many areas of IT from binary arithmetic to OSI network layers to soft skills. Completing the course has given me a much firmer foundational knowledge of IT and has given me confidence in abilities when it comes to troubleshooting and the ability to learn new things efficiently.
+The topics covered across the courses touched on many areas of IT, from binary arithmetic to OSI network layers to soft skills. Completing the course has given me a much firmer foundational knowledge of IT and has given me confidence in abilities when it comes to troubleshooting and the ability to learn new things efficiently.
 
-Overall the course had challenging moments but the video explanations are adequate with plenty of additional reading and quizzes to ensure you've understood the content. 
+Overall, the course had challenging moments, but the video explanations are adequate with plenty of additional reading and quizzes to ensure you've understood the content. 
 
-An excerpt from the Specialisation page on coursera:
+An excerpt from the Specialization page on Coursera:
 > The content is highly interactive and exclusively developed by Google employees with decades of experience in IT.
 > Through a mix of videos, assessments, and hands-on labs, you’ll be introduced to troubleshooting, customer service, networking, operating systems, and security — foundational IT skills required for an entry-level job. 
 >Your skills will include: Network protocols, cloud computing, Windows operating system, Linux command line, systems administration, encryption algorithms and techniques, and more. 
