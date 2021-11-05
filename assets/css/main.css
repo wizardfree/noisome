@@ -11,3 +11,13 @@ pre, code {
     background-color: #ece9d8 !important;
     color: #000;
 }
+
+hr {
+    height: 2rem;
+    background-image: linear-gradient(180deg,#0997ff,#0053ee 8%,#0050ee 40%,#06f 88%,#06f 93%,#005bff 95%,#003dd7 96%,#003dd7);
+   
+    border: 0;
+    height: 1px;
+    width: 75%;
+    margin: 2rem auto;
+}
