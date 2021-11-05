@@ -12,6 +12,8 @@ hugo.exe
 hugo.darwin
 hugo.linux
 
+hugo_stats.json
+
 ### Linux ###
 *~
 
