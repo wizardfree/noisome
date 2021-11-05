@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html class="font-ubuntu">
   {{- partial "head.html" . -}}
-  <body>
+  <body class="container sm:w-2/3 mx-auto ">
     {{- partial "header.html" . -}}
     <main>
       <div class="window">
-        <div class="title-bar">
-          <img src="{{ "wizardv2.png" | relURL }}" alt="" style="width: 22px">
-          <div class="title-bar-text"> {{ .Page.Title | truncate 32 "..." }}</div>
+        <div class="title-bar h-7">
+          <img src="{{ "wizardv2.png" | relURL }}" alt="" class="w-6">
+          <div class="title-bar-text font-ubuntu"> {{ if .IsHome  }}
+            Articles
+            {{ else }}
+            <p class="text-xs sm:text-base">🐌 : {{ .Page.Slug }}</p>
+            {{ end }}</div>
           <div class="title-bar-controls">
-            {{ if not .IsHome  }}
-            {{ .Date.Format "January 2, 2006" }}
-            {{ end }}
             <button aria-label="Minimize"></button>
             <button aria-label="Maximize"></button>
             <button aria-label="Close"></button>
           </div>
         </div>
-        <div class="window-body">
+        <div class="window-body m-8">
             {{- block "main" . }}{{- end }}
         </div>
       </div>

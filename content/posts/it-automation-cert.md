@@ -11,8 +11,6 @@ tags:
 - Python
 ---
 
-<iframe src="/Coursera NAJ37NHQCBYU.pdf#toolbar=0" width="100%" height="500px"></iframe>
-
 Taking up the mornings of the past weeks has been the [Google IT Automation with Python Specialization] offered by Coursera, being awarded a certificate of completion earlier today (July 4th 2021). The specialization which consists of five courses + a [final collection of labs](https://www.coursera.org/learn/automating-real-world-tasks-python) to work through, each of the courses has graded work and quizlets which need to be passed in order to be awarded with a certificate.
 The courses include:
 

@@ -1,9 +1,11 @@
 {{ define "main" }}
-    {{ .Content }}
+<div class="w-80 mx-auto flex flex-col">
     {{ range .Data.Terms.ByCount }}
-        <h4 class="tag">
-            <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+        <h4 class="flex flex-row justify-between">
+            <a href="{{ .Page.Permalink }}" class="underline hover:no-underline">{{ .Page.Title }}</a>
             <p class="count">({{ .Count }})</p>
         </h4>
-    {{ end }}
+   
+    {{ end }} 
+</div>
 {{ end }}

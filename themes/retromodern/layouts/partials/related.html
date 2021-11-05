@@ -1,9 +1,36 @@
 <hr>
-<div id="related">
-    {{ with .NextInSection }}
-    <h5>←<a href="{{ .Permalink }}">{{ .Title | truncate 24 "..."}}</a></h5>
+<div class="flex flex-row flex-wrap justify-evenly">
+    {{ with .NextInSection }} 
+        <div class="w-96 shadow-xl p-8 rounded-xl">
+            <p class="text-sm sm:text-base underline hover:no-underline">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </p>
+            <p class="text-sm">
+                in 
+                {{ range .Params.tags }}
+                <a class="text-xs">{{ . }}</a>
+                {{ end }}
+                <p>Reading time of <span class="font-bold">{{ .ReadingTime }}</span>~ mins.</p>
+                <p>Published: {{ .Date.Format   "January 2, 2006" }}</p>
+            </p>
+            <a href="{{ .Permalink }}" class="sm:text-sm underline hover:no-underline">Go to content.</a>
+        </div>
     {{ end }}
+
     {{ with .PrevInSection }}
-    <h5><a href="{{ .Permalink }}">{{ .Title | truncate 24 "..." }}</a>→</h5>
+        <div class="w-96 shadow-xl p-8 rounded-xl">
+            <p class="text-sm sm:text-base underline hover:no-underline">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </p>
+            <p class="text-sm">
+                in 
+                {{ range .Params.tags }}
+                <a class="text-xs">{{ . }}</a>
+                {{ end }}
+                <p>Reading time of <span class="font-bold">{{ .ReadingTime }}</span>~ mins.</p>
+                <p>Published: {{ .Date.Format   "January 2, 2006" }}</p>
+            </p>
+            <a href="{{ .Permalink }}" class="sm:text-sm underline hover:no-underline">Go to content.</a>
+        </div>
     {{ end }}
 </div>

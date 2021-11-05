@@ -1,17 +1,28 @@
-<article id="post-summary">
-    <h5>
-<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </h5>
-    <div>
-        <p>🐌: <strong>{{ .Slug }}</strong></p>
-        <p>🗓️: <strong>{{ .Date.Format "January 2, 2006" }}</strong></p>
-        <p class="tags">
-            in 
-            {{ range .Params.tags }}
-            <a href="/tags/{{ . | urlize }}">{{ . }}</a>
-            {{ end }}
-        </p>
+<article class="py-2 flex flex-row items-center">
+    <div class="sm:w-2/5">
+        <h5 class="text-lg sm:text-2xl">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h5>
+        <div>
+            <p class="text-sm">🐌: <strong>{{ .Slug }}</strong></p>
+            <p class="text-sm">🗓️: <strong>{{ .Date.Format "January 2, 2006" }}</strong></p>
+            <p class="text-sm">
+                in 
+                {{ range .Params.tags }}
+                <a href="/tags/{{ . | urlize }}" class="underline hover:no-underline">{{ . }}</a>
+                {{ end }}
+            </p>
+        </div>
     </div>
+    <aside class="ml-3 hidden sm:flex flex-col sm:w-3/5 text-sm">
+        {{ .Summary }} 
+        
+        {{ if .Truncated }}
+            <div>
+                <a href="{{ .RelPermalink }}" class="text-xs underline hover:no-underline">Read More…</a>
+            </div>
+        {{ end }}
+    </aside>
 </article>
 
 <hr>

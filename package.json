@@ -1,0 +1,25 @@
+{
+  "name": "wizardfree",
+  "version": "1.0.0",
+  "description": "Personal website using Hugo and a custom theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wizardfree/WizardFree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wizardfree/WizardFree/issues"
+  },
+  "homepage": "https://github.com/wizardfree/WizardFree#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  }
+}
