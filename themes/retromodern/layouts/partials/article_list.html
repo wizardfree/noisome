@@ -1,4 +1,4 @@
-<div class="flex flex-col p-8">
+<div class="flex flex-col sm:p-8">
     {{ range (.Paginator 4).Pages }}
     {{ partial "post_summary.html" . }}
     {{ end }}
