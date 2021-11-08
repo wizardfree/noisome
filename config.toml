@@ -41,3 +41,13 @@ theme = "retromodern"
    noClasses = true
    style = 'colorful'
    tabWidth = 4
+disableKinds = ["page", "section", "taxonomy", "term"]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.75.0"
+
+[build]
+# Used by PurgeCSS
+writeStats = true
