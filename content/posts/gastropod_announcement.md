@@ -10,6 +10,9 @@ tags:
 - Development
 ---
 
+> **tl;dr**: custom script which generates three word random strings are used for the article slugs on the site [🐌](https://github.com/wizardfree/gastropod)
+<!--more--> 
+\
 At some point of browsing this website, you may have noticed that the articles have odd looking slugs[^1] attached to them <!--more--> (this very article has a pretty odd one!). The style of slug I've chosen for this site is based ~~shamelessly-ripped-off~~ of the [what.three.words](https://what3words.com/) location app, which uses three words to split the globe into three-worded-three-meter-squares. Liking the idea and wanting to implement a similar solution myself, I decided on website slugs, hence [gastropod🐌](https://github.com/wizardfree/gastropod) was born.
 \
 \
