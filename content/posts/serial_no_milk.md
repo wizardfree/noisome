@@ -73,9 +73,9 @@ Here's a couple possible use-cases for you to think over:
 - \>A POI (Point of Interest) App: using a provided app, POIs could be scanned, revealing factual data and facilities information.
 
 
-[^1]: [😎](https://i.kym-cdn.com/photos/images/newsfeed/001/498/880/572.jpg) 
-[^2]: https://internetretailing.net/themes/14m-americans-scanned-qr-and-bar-codes-with-their-mobiles-in-june-2011
-[^3]: https://scanova.io/blog/qr-code-statistics/#:~:text=changed%20since%20then.-,US,9.76%20Million%20scans%20in%202018.
-[^4]: https://www.json.org/
-[^5]: https://github.com/google/gson
-[^6]: https://segno.readthedocs.io/
+[^1]: [^1] : [😎](https://i.kym-cdn.com/photos/images/newsfeed/001/498/880/572.jpg) 
+[^2]: [^2] : <https://internetretailing.net/themes/14m-americans-scanned-qr-and-bar-codes-with-their-mobiles-in-june-2011>
+[^3]: [^3] : <https://scanova.io/blog/qr-code-statistics/#:~:text=changed%20since%20then.-,US,9.76%20Million%20scans%20in%202018.>
+[^4]: [^4] : <https://www.json.org/>
+[^5]: [^5] : <https://github.com/google/gson>
+[^6]: [^6] : <https://segno.readthedocs.io/>

@@ -22,5 +22,5 @@ Accurate representation of me writing content for this site:
 ![Accurate representation of me writing article content](https://media.giphy.com/media/jnQ5a3PR7H0QGx7kO4/source.gif)
 {.mx-auto .mb-8}
 
-[^1]: Not the slimy kind, the end part of the URL which points to a specific page or article e.g. example.com/**i-am-a-slug/** 
+[^1]:  [^1] : Not the slimy kind, the end part of the URL which points to a specific page or article e.g. example.com/**i-am-a-slug/** 
 
