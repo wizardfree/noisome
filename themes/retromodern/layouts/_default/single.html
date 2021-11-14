@@ -6,7 +6,7 @@
     </p>
     <p class="text-lg text-center my-8">
       in {{ range .Params.tags }}
-      <a href="/tags/{{ . | urlize }}" class="underline hover:no-underline">{{ . }}</a>
+      <a href="/tags/{{ . | urlize }}" class="underline hover:no-underline">{{ . }}</a> /
       {{ end }}
     </p>
     <hr/>
