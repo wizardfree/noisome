@@ -1,0 +1,27 @@
+<head>
+    {{/*  META  */}}
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="{{ .Site.Params.author }}" />
+    <meta name="description" content="{{ .Site.Params.description }}" />
+    <title>{{ if .IsHome }}  {{ .Site.Title }} {{ else }} {{.Page.Slug}} | {{ .Site.Title }} {{ end }}</title>
+
+    {{/*  STYLESHEETS  */}}
+    {{ $options := dict "inlineImports" true }}
+    {{ $styles := resources.Get "css/styles.css" }}
+    {{ $styles = $styles | resources.PostCSS $options }}
+    {{ if  hugo.IsProduction  }}
+      {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
+    {{ end }}
+    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+
+    {{/*  ICONS  */}}
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}" />
+    <link rel="manifest" href="{{ "site.webmanifest" | relURL }}" />
+    <link rel="mask-icon" href="{{ "safari-pinned-tab.svg" | relURL }}" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <meta name="theme-color" content="#ffffff" />
+</head>

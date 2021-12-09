@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
+    <body class="flex">
+        {{/*  {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}
         </div>
-        {{- partial "footer.html" . -}}
+        {{- partial "footer.html" . -}}  */}}
+
+        <main class="">
+            {{- block "main" . }}{{- end }}
+        </main>
+
+        <aside class="h-screen sticky top-0">
+            {{- partial "header.html" . -}}
+            foobar
+        </aside>
+
     </body>
 </html>

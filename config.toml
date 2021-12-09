@@ -1,7 +1,7 @@
 baseURL = "https://wizardfree.uk"
 languageCode = "en-gb"
 title = "WizardFree"
-theme = "retromodern"
+theme = "sidebyside"
 [params]
  author = "Joseph Fleet"
  description = "Personal website of a Junior IT Professional"
