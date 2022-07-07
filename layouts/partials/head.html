@@ -6,14 +6,19 @@
   <meta name="description" content="{{ .Site.Params.description }}" />
   <title>{{ if isset .Params "slug" }} {{.Page.Slug}} | {{ .Site.Title }} {{ else }} {{ .Site.Title }} {{ end }}</title>
 
-  {{ $styles := resources.Get "css/styles.css" }}
+  {{ $styles := resources.Get "css/styles.css" | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
 
-  {{ $minimal := resources.Get "css/minimal.min.css" }}
+  {{ $minimal := resources.Get "css/minimal.min.css" | minify }}
   <link rel="stylesheet" href="{{ $minimal.Permalink }}" integrity="{{ $minimal.Data.Integrity }}">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}" />
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}" />
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}" />
-  <link rel="manifest" href="{{ "site.webmanifest" | relURL }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ " apple-touch-icon.png" | relURL }}" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ " favicon-32x32.png" | relURL }}" />
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ " favicon-16x16.png" | relURL }}" />
+  <link rel="manifest" href="{{ " site.webmanifest" | relURL }}" />
 </head>
