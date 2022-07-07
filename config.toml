@@ -1,0 +1,6 @@
+baseURL = 'https://wizardinthe.cloud'
+languageCode = 'en-gb'
+title = 'wizardinthe.cloud'
+[markup]
+  [markup.highlight]
+    style = 'murphy'

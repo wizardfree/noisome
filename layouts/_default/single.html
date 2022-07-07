@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="mt-5">
+  <h2 class="center">{{ .Page.Title }}</h2>
+  <p class="text-300 center">
+    {{ .Date.Format "January 2, 2006" }}
+    <span class="mx-1">·</span>
+    <span>
+    in {{ range .Params.tags }}
+    <a href="/tags/{{ . | urlize }}">{{ . }}</a> / 
+    {{ end }}
+  </span>
+  </p>
+  <div class="mt-5">
+    {{ if (.Params.toc) }}
+    <h4>Table Of Contents:</h4>
+    {{ .TableOfContents }}
+    {{ end }}
+  </div>
+  <article class="mt-5">
+    {{ .Content }}
+  </article>
+</div>
+{{ end }}

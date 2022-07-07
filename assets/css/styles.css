@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300;400;700&display=swap');
+
+html,
+body {
+    font-family: Ubuntu !important;
+}
+
+code {
+    font-family: 'Ubuntu Mono', monospace !important;
+    white-space: break-spaces;
+    line-height: 1.25em !important;
+}
+
+img {
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 1em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #008080;
+}
+
+a:hover {
+    color: blue;
+}
+
+kbd {
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0.5em;
+}
+
+.rm-style {
+    list-style-type: none;
+}
+
+.rm-pos {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-between {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.mx-1 {
+    margin: 0em 1em;
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+
+.mt-5 {
+    margin-top: 5em;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.text-300 {
+    font-weight: 300;
+}
+
+.text-700 {
+    font-weight: 700;
+}
+
+.inline {
+    display: inline;
+}
+
+.highlight {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.highlight * {
+    background-color: #FFF !important;
+}
+
+.tags {
+    font-size: 10px;
+}
+
+#navigation {
+    background: rgb(255,255,255);
+}
+
+#navigation ul {
+    list-style-type: none;
+}
+
+#navigation ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+#branding {
+    width: 72px;
+    object-fit: cover;
+    border: none;
+}
+
+#branding-sm {
+    width: 32px;
+    object-fit: cover;
+    border: none;
+}
+
+#article_list {
+    margin-top: 9em;
+}
+
+#older_posts {
+    float: right;
+}
+
+#description {
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+}
+
+#TableOfContents ul li {
+    list-style-type: circle;
+}
+
+#TableOfContents ul li a, strong {
+    font-weight: 300;
+}
+
+#archive li a {
+    line-height: 1.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    #navigation {
+        background-color: #222;
+    }
+
+    .highlight * {
+        background-color: #222 !important;
+    }
+}

@@ -1,0 +1,20 @@
+{{ define "main" }}
+    <h3 class="mt-5">{{ .Title }}:</h3>
+        {{ range .Pages.ByDate }}
+        <ul class="rm-pos" id="archive">
+            {{ if (ne .Params.hidden true) }}
+            <li class="rm-style">
+              <p class="inline">{{ .Date.Format "02 Jan" }}</p>
+              <a href="{{ .RelPermalink }}">
+                <p class="inline mx-1 text-700">{{ .Title }}</p>
+              </a>
+                <span class="mx-1">
+                  {{ range .Params.tags }}
+                  <a href="/tags/{{ . | urlize }}" class="highlight tags">{{ . }}</a>
+                  {{ end }}
+                </span>
+            </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+{{ end }}

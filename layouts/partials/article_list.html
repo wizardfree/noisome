@@ -1,0 +1,13 @@
+<div class="mt-5">
+    <a href="/" class="center">
+        <img src="{{ "wizardv2.gif" | relURL }}" alt="" id="branding" />
+    </a>
+    <h3 class="center">Joseph Fleet</h3>
+    <h4 class="center">IT Technician aka Wizards Apprentice</h4>
+    {{ range (.Paginator 5).Pages }}
+    {{ if (ne .Params.hidden true) }}
+    {{ partial "post_summary.html" . }}
+    {{ end }}
+    {{ end }}
+    {{- partial "custom_pagination.html" . -}}
+</div>

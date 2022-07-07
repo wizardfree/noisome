@@ -1,0 +1,9 @@
+<article class="mt-2">
+    <aside class="flex-between">
+        <h3 class="text-700">
+            🪄 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+        <p class="text-300">{{ .Date.Format "January 2, 2006" }}</p>
+    </aside>
+    <p class="text-300" id="description">{{ .Description }}</p>
+</article>

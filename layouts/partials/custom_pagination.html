@@ -1,0 +1,19 @@
+{{ $paginator := .Paginator }}
+{{ if gt $paginator.TotalPages 1 }}
+<ul class="mt-5">
+  {{ if $paginator.HasPrev }}
+
+  <li class="rm-style">
+    <a href="{{ $paginator.Prev.URL }}">↤ Newer posts</a>
+  </li>
+
+  {{ end }}
+  {{ if $paginator.HasNext }}
+
+  <li id="older_posts" class="rm-style">
+    <a href="{{ $paginator.Next.URL }}">Older Posts ↦</a>
+  </li>
+
+  {{ end }}
+</ul>
+{{ end }}

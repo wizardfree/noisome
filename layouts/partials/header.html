@@ -1,0 +1,18 @@
+<nav class="flex-between sticky" id="navigation">
+  
+  {{ if ne .IsHome true }}
+  <a href="/">
+    <img src="{{ "wizardv2.gif" | relURL }}" alt="" id="branding-sm" />
+  </a>
+  {{ else }}
+  <span></span>
+  {{ end }}
+
+  <ul class="text-300">
+    <li><a href="/archive">archive</a></li>
+    <li><a href="/about">about</a></li>
+    <li><a href="/tags">tags</a></li>
+    <li class="highlight"><a href="https://mega.nz/file/fJcDiCxJ#-D9zKXABkLgkgDb3RazyytQwhvNvZd-J2Hzmq1PTc5c" target="_blank">resume</a></li>
+    
+  </ul>
+</nav>

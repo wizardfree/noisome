@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h3 class="mt-5">All tags:</h3>
+<ul class="rm-pos">
+    {{ range .Data.Terms.ByCount }}
+
+    <li class="rm-style highlight center mt-2">
+        <a href="{{ .Page.Permalink }}">
+        <p class="text-300">
+            {{ .Page.Title }}
+        </p>
+        </a>
+        <p class="text-700">({{ .Count }})</p>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
